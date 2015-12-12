@@ -10,10 +10,18 @@
         android:padding="16dp"
         tools:context=".MainActivity">
 
+        <EditText
+            android:id="@+id/name_Editable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textMultiLine" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="16dp"
+            android:paddingTop="16dp"
             android:text="TOPPING"
             android:textSize="16sp" />
 
@@ -25,6 +33,16 @@
             android:paddingLeft="24dp"
             android:text="Whipped Cream"
             android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox_choc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:paddingLeft="24dp"
+            android:text="Chocolate "
+            android:textSize="16sp" />
+
 
         <TextView
             android:layout_width="wrap_content"
